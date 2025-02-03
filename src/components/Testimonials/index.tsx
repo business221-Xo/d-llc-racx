@@ -8,7 +8,7 @@ const testimonialData: Testimonial[] = [
     name: "Musharof Chy",
     designation: "Founder @TailGrids",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Working with Racx was a changer for our business. Their team took the time to understand our unique needs and delivered a stunning e-commerce platform that has increased our sales by 26%. Their customer service is exceptional—always available. Highly recommend!",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
@@ -17,7 +17,7 @@ const testimonialData: Testimonial[] = [
     name: "Devid Weilium",
     designation: "Founder @UIdeck",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "The automation tools developed have streamlined our operations significantly. We saw a 37% reduction in manual tasks, allowing our team to focus on growth strategies instead. Their proactive support and attention to detail made the entire process smooth and enjoyable.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
@@ -26,10 +26,11 @@ const testimonialData: Testimonial[] = [
     name: "Lethium Frenci",
     designation: "Founder @Lineicons",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "I was impressed by the Solana trading bot developed. It has not only simplified my trading process but also improved my returns substantially. The team provided excellent guidance throughout, making me feel confident in my investments. I couldn't be happier!",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
+  
 ];
 
 const Testimonials = () => {
