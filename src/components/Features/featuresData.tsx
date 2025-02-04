@@ -44,7 +44,7 @@ const featuresData: Feature[] = [
     ),
     title: "Tailored Business Solutions for Enhanced Operational Efficiency",
     paragraph:
-      "Our business website development services focus on creating platforms that streamline operations and improve client interactions. We design custom solutions that integrate CRM systems, project management tools, and client portals tailored to your unique business needs. Recent implementations have resulted in a reduction in operational costs for our clients by automating routine tasks and improving workflow efficiency. Our user-centric designs ensure that your business can effectively engage with customers and stakeholders alike.",
+      "Our business website development services focus on creating platforms that streamline operations and improve client interactions. We design custom solutions that integrate CRM systems, project management tools, web scraping tools and client portals tailored to your unique business needs. Recent implementations have resulted in a reduction in operational costs for our clients by automating routine tasks and improving workflow efficiency. Our user-centric designs ensure that your business can effectively engage with customers and stakeholders alike.",
   },
   {
     id: 4,

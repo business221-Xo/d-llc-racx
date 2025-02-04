@@ -13,7 +13,7 @@ function MyProjectCard({ imageSrc, title, description, link }) { // Changed to f
           className="absolute inset-0 rounded-t-lg"
         />
       </div>
-      <div className="p-4 bg-white">
+      <div className="p-4">
         <h3 className="text-xl font-bold text-center mb-2">{title}</h3>
         <p className="text-base text-gray-700 text-center">{description}</p>
       </div>
@@ -21,4 +21,4 @@ function MyProjectCard({ imageSrc, title, description, link }) { // Changed to f
   );
 }
 
-export default MyProjectCard ; // Export statement at the end
+export default MyProjectCard ; 
