@@ -40,8 +40,9 @@ const blogData: Blog[] = [
       image: "/images/blog/author-03.png",
       designation: "Graphic Designer",
     },
-    tags: ["Crypto"],
+    tags: ["design"],
     publishDate: "2025",
+  
   },
 ];
 export default blogData;
