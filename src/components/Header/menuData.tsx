@@ -54,12 +54,12 @@ const menuData: Menu[] = [
         path: "/blog-sidebar",
         newTab: false,
       },
-      {
-        id: 45,
-        title: "Blog Details Page",
-        path: "/blog-details",
-        newTab: false,
-      },
+      // {
+      //   id: 45,
+      //   title: "Blog Details Page",
+      //   path: "/blog-details",
+      //   newTab: false,
+      // },
       // {
       //   id: 46,
       //   title: "Sign In Page",
@@ -79,6 +79,12 @@ const menuData: Menu[] = [
       //   newTab: false,
       // },
     ],
+  },
+  {
+    id: 5,
+    title: "Portfolio",
+    path: "/portfolio",
+    newTab: false,
   },
 ];
 export default menuData;

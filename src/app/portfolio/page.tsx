@@ -1,0 +1,21 @@
+
+import PortfolioData from './PortfolioData';
+
+export default function Portfolio() {
+  return (
+    <div className="container mx-auto px-4 py-8">
+      <h1 className="text-3xl font-bold text-center mb-8">My Portfolio</h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {PortfolioData.map((project) => (
+          <MyProjectCard
+            key={project.id}
+            imageSrc={project.imageSrc}
+            title={project.title}
+            description={project.description}
+            link={project.link}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
