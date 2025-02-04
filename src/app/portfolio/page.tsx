@@ -1,5 +1,6 @@
 
 import PortfolioData from './PortfolioData';
+import MyProjectCard from '@/components/Portfolio/MyProjectCard'
 
 export default function Portfolio() {
   return (

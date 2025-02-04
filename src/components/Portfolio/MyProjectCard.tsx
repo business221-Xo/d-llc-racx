@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-function ProjectCard({ imageSrc, title, description, link }) { // Changed to function declaration
+function MyProjectCard({ imageSrc, title, description, link }) { // Changed to function declaration
   return (
     <Link href={link} className="block rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300 ease-in-out">
       <div className="relative pb-2/3">
@@ -21,4 +21,4 @@ function ProjectCard({ imageSrc, title, description, link }) { // Changed to fun
   );
 }
 
-export { ProjectCard }; // Export statement at the end
+export default MyProjectCard ; // Export statement at the end
