@@ -5,26 +5,23 @@ const Contact = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-  const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    try {
-      const response = await fetch('/api/send', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ name, email, message }),
-      });
-      if (response.ok) {
-        setSubmitted(true);
-      } else {
-        // Handle error
-        console.error('Error sending email:', response.status);
-      }
-    } catch (error) {
-      console.error('Error sending email:', error);
+    const response = await fetch('/api/contact', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ name, email, message }),
+    });
+    if (response.ok) {
+      alert('Message sent successfully');
+      setName('');
+      setEmail('');
+      setMessage('');
+    } else {
+      alert('Error sending message');
     }
   };
 
@@ -105,7 +102,7 @@ const Contact = () => {
                     <button type="submit" className="rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark">
                       Submit Ticket
                     </button>
-                    {submitted && <p> Ticket sent successfully! </p>}
+                    
                   </div>
                 </div>
               </form>
