@@ -1,4 +1,5 @@
 // import NewsLatterBox from "./NewsLatterBox";
+'use client';
 import { useState } from 'react';
 
 const Contact = () => {
@@ -41,7 +42,7 @@ const Contact = () => {
               <p className="mb-12 text-base font-medium text-body-color">
                 Our support team will get back to you ASAP via email.
               </p>
-              <form>
+              <form onSubmit={handleSubmit}>
                 <div className="-mx-4 flex flex-wrap">
                   <div className="w-full px-4 md:w-1/2">
                     <div className="mb-8">
@@ -85,7 +86,7 @@ const Contact = () => {
                         htmlFor="message"
                         className="mb-3 block text-sm font-medium text-dark dark:text-white"
                       >
-                        Your Message
+                        Your Message | What you want
                       </label>
                       <textarea
                         name="message"
