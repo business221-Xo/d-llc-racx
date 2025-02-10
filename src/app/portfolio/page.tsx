@@ -25,7 +25,7 @@
 // }
 
 import SectionTitle from "../../components/Common/SectionTitle";
-import SingleBlog from "../../components/Blog/SingleBlog";
+import SingleBlog_portfolio from "../../components/Blog/SingleBlog_portfolio";
 import blogPortfolioData from "./PortfolioData";
 
 const Blog = () => {
@@ -44,7 +44,7 @@ const Blog = () => {
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3">
           {blogPortfolioData.map((blog) => (
             <div key={blog.id} className="w-full">
-              <SingleBlog blog={blog} />
+              <SingleBlog_portfolio blog={blog} />
             </div>
           ))}
         </div>

@@ -48,12 +48,12 @@ const menuData: Menu[] = [
         path: "/blog",
         newTab: false,
       },
-      {
-        id: 44,
-        title: "Blog Sidebar Page",
-        path: "/blog-sidebar",
-        newTab: false,
-      },
+      // {
+      //   id: 44,
+      //   title: "Blog Sidebar Page",
+      //   path: "/blog-sidebar",
+      //   newTab: false,
+      // },
       {
         id: 45,
         title: "Showcase",
