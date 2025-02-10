@@ -53,7 +53,7 @@ const blogPortfolioData: Blog[] = [
     id: 2,
     title: "AI Agent for ILT",
     paragraph:
-      "We believe that exceptional service is the cornerstone of the great customer experience. We are committed to making every moment count.",
+      "We believe that exceptional service is the cornerstone of a great customer experience. We are committed to making every moment count.",
     image: "/images/blog/blog-02.jpg",
     author: {
       name: "Musharof Chy",
