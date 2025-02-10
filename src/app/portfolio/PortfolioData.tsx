@@ -129,6 +129,54 @@ const blogPortfolioData: Blog[] = [
     link : "https://www.tourplus.my/"
   
   },
+  {
+    id: 7,
+    title: "Toysrus",
+    paragraph:
+      "At Toys RUs, we believe that toys have the power to change lives. Play enables children to develop their imagination, collaborate, problem solve, explore, create or simply express themselves spontaneously. Our mission at Toys RUs is to encourage children to engage with as many forms of play as we possibly can.",
+    image: "/images/portfolio/Tourplus.jpg",
+    author: {
+      name: "Lethium Deo",
+      image: "/images/portfolio/Toysrus.png",
+      designation: "Graphic Designer",
+    },
+    tags: [""],
+    publishDate: "2025",
+    link : "https://toysrus.com.au/"
+  
+  },
+  {
+    id: 8,
+    title: "BLEGGS",
+    paragraph:
+      "we continuously refine our services to ensure they align with your needs and preferences.",
+    image: "/images/portfolio/BLEGGS.jpg",
+    author: {
+      name: "Lethium Deo",
+      image: "/images/portfolio/Toysrus.png",
+      designation: "Graphic Designer",
+    },
+    tags: [""],
+    publishDate: "2025",
+    link : "sdg.net"
+  
+  },
+  {
+    id: 9,
+    title: "CryptoTrading",
+    paragraph:
+      "By using good rpc nodes and geyser streaming, jito bundle, I can land transactions at least 4th position and can buy tokens with cheap price while launching tokens.I can offer my current sniper bot or can build new one if you have any strategy.",
+    image: "/images/portfolio/BLEGGS.jpg",
+    author: {
+      name: "Lethium Deo",
+      image: "/images/portfolio/CryptoTrading.png",
+      designation: "Graphic Designer",
+    },
+    tags: [""],
+    publishDate: "2025",
+    link : "sdg.net"
+  
+  },
 ];
 export default blogPortfolioData;
 
